@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Welcome to our Tawa Ghar</title>
+<h1> TAWA GHAR </h1>
+<h2>Want a small party/gathering/get-together? <a href="Book.php"><em1>Book Now </em1></a> </h2>
+<link rel="stylesheet" href="style.css" /> 
+
+<script type="text/javascript" >
+
+function getInput(){
+
+var username, password;
+username = document.getElementById("username").value;
+password = document.getElementById("password").value;
+document.getElementById("welcome_msg").innerphp = username;
+
+}
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+  <div class="box">
+    <ul type="none">
+	
+	<li><a href="index.php"> <strong>Home</strong></a></li>
+	<li><a href="Contact.php"> <strong>Contact Us</strong></a></li>
+	<li><a href="Menu.php"> <strong>Menu</strong></a></li>
+	<li><a href="Order.php"> <strong>Online Order</strong></a></li>
+	<li><a href="Login.php"> <strong>Log In</strong></a></li>
+	</ul>
+ </div>
+ <div>
+ <br></br>
+ <p>New on Tawa Ghar ? Register now</p><br><br>
+ 
+ <h1 id="welcome_msg" ></h1>
+ 
+ <p>Login</p>
+ <form method="GET" action="" >
+ Username:<input type="text" id="username" ><br>
+ Password:<input type="password" id="password" ><br>
+ <input type="submit" value="Login!" onClick="getInput();" > <br>
+ </form>
+
+ </div>
+ <marquee>
+<footer>
+Copyright Me 2020
+</footer>
+</marquee>
+</body>
+</html>
