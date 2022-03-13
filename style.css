@@ -1,0 +1,83 @@
+h1{
+
+text-align:center;
+color:Red;
+text-shadow: 3px 3px #660033;
+font-family:"Comic Sans MS", cursive, sans-serif;
+
+font-size: 35px;
+}
+h2{
+text-align: center;
+font-size: 18px;
+color: black;
+}
+em{
+color:blue;
+}
+em2{ color:red;
+}
+
+em3{
+	color:Red;
+}
+
+ .box ul li{ 
+ 
+ width: 93px; 
+ float: left;
+ margin-left: 90px;
+ text-align:left; 
+ } 
+ .tab {
+	 align:right;
+  /* padding-left: 200px; */
+}
+form .submit{
+	
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacking: 2px;
+	height: 30px;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	boarder-bottom: 1px solid gray;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+ 
+ 
+ 
+ body{
+
+
+background-image:url('tawa_ghar.jpg'); 
+ background-repeat: no-repeat; 
+background-size: cover; 
+
+}
+footer{
+margin-top:40px;
+background-color:SlateGray;
+color:white;
+text-align:right;
+}
+
+#bg_image{
+	
+	margin-top:50px;
+	align:left;
+	
+	
+}
+#box {
+width:60%;
+margin:auto;
+}
+a{
+font-style: strong;
+text-decoration: none;
+
+}
